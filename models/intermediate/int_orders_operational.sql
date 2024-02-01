@@ -1,6 +1,7 @@
 select
 orders_id,
 date_date,
+revenue,
 round((margin+shipping_fee-logcost-ship_cost),2) as operational_margin,
 quantity,
 from
